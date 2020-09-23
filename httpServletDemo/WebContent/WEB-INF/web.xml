@@ -20,4 +20,15 @@
   	<url-pattern>/RequestServlet</url-pattern>
   </servlet-mapping>
   
+  
+  <servlet>
+  	<servlet-name>identityServlet</servlet-name>
+  	<servlet-class>com.longmaoaiali.IdentityServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>identityServlet</servlet-name>
+  	<url-pattern>/identityServlet</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
